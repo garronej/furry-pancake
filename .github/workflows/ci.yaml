@@ -75,7 +75,14 @@ jobs:
 
   create_github_release:
     runs-on: ubuntu-latest
-    if: needs.check_if_version_upgraded.outputs.is_upgraded_version == 'true'
+    # We create a release only if the version have been upgraded and we are on a default branch
+    # PR on the default branch can release beta but not real release
+    if: |
+      needs.check_if_version_upgraded.outputs.is_upgraded_version == 'true' &&
+      (
+        github.event_name == 'push' ||
+        needs.check_if_version_upgraded.outputs.is_release_beta == 'true'
+      )
     needs: 
       - check_if_version_upgraded
     steps:
