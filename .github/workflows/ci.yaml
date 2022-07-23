@@ -75,6 +75,7 @@ jobs:
 
   create_github_release:
     runs-on: ubuntu-latest
+    if: needs.check_if_version_upgraded.outputs.is_upgraded_version == 'true'
     needs: 
       - check_if_version_upgraded
     steps:
