@@ -34,7 +34,7 @@ $ npm install --save furry-pancake
 import { myFunction, myObject } from "furry-pancake";
 ```
 
-Specific imports:
+Specific imports dummy:
 
 ```typescript
 import { myFunction } from "furry-pancake/myFunction";
