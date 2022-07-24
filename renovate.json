@@ -23,7 +23,8 @@
                 "run-exclusive",
                 "minimal-polyfills",
                 "onyxia-ui",
-                "sill-api"
+                "sill-api",
+                "github-pages-plugin-for-type-route"
             ],
             "enabled": false
         },
@@ -38,7 +39,8 @@
                 "run-exclusive",
                 "minimal-polyfills",
                 "onyxia-ui",
-                "sill-api"
+                "sill-api",
+                "github-pages-plugin-for-type-route"
             ],
             "matchUpdateTypes": ["minor", "patch"],
             "automerge": true,

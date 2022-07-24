@@ -1278,6 +1278,11 @@ get-stream@^6.0.0:
   resolved "https://registry.yarnpkg.com/get-stream/-/get-stream-6.0.1.tgz#a262d8eef67aced57c2852ad6167526a43cbf7b7"
   integrity sha512-ts6Wi+2j3jQjqi70w5AlN8DFnkSwC+MqmxEzdEALB2qXZYV3X/b1CTfgPLGJNMeAWxdPfU8FO1ms3NUfaHCPYg==
 
+github-pages-plugin-for-type-route@0.0.9:
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/github-pages-plugin-for-type-route/-/github-pages-plugin-for-type-route-0.0.9.tgz#7b679ec9d40b68ad7412655939b1e9c283ce10d0"
+  integrity sha512-2acZDAdNDLMSo97l7KjGdEzpxO15V8MlmDE4mlII7FJQjVliMdwm+4vde/nVTYlg2Th6ufEctyLcPXNqHiAOOg==
+
 glob-parent@^5.1.2:
   version "5.1.2"
   resolved "https://registry.yarnpkg.com/glob-parent/-/glob-parent-5.1.2.tgz#869832c58034fe68a4093c17dc15e8340d8401c4"
