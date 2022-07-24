@@ -51,7 +51,8 @@
         "run-exclusive": "2.2.15",
         "minimal-polyfills": "2.2.1",
         "onyxia-ui": "0.46.3",
-        "@emotion/react": "^11.9.3"
+        "@emotion/react": "^11.9.3",
+        "sill-api": "0.21.0"
     },
     "devDependencies": {
         "@types/node": "^16.4.9",

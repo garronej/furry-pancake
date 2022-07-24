@@ -22,7 +22,8 @@
                 "cra-envs",
                 "run-exclusive",
                 "minimal-polyfills",
-                "onyxia-ui"
+                "onyxia-ui",
+                "sill-api"
             ],
             "enabled": false
         },
@@ -36,7 +37,8 @@
                 "cra-envs",
                 "run-exclusive",
                 "minimal-polyfills",
-                "onyxia-ui"
+                "onyxia-ui",
+                "sill-api"
             ],
             "matchUpdateTypes": ["minor", "patch"],
             "automerge": true,
