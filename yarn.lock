@@ -815,12 +815,12 @@ husky@^4.3.8:
     slash "^3.0.0"
     which-pm-runs "^1.0.0"
 
-i18nifty@1.3.0:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/i18nifty/-/i18nifty-1.3.0.tgz#138e6c6133b1097dd6d4ac0f621dfcbd259e400d"
-  integrity sha512-Ak3HRgUUz9NISrM7cAlyDBJoVpsBuGnkfadDO8jt2g4dkabwvItZEHoQpor2X67vgJen87mP+23xWlXVOpYEPw==
+i18nifty@1.3.5:
+  version "1.3.5"
+  resolved "https://registry.yarnpkg.com/i18nifty/-/i18nifty-1.3.5.tgz#3e0403eed061a1bb43525d87bbfa3c768b4b414c"
+  integrity sha512-n2fuWjSTcxsiiDBLU1fyBPXbomd/t/1GF/yv2CJRUudUy9K66CnV4ZsBt+qe3abQgkJKDg4ZD+C5cv1W3jGFrg==
   dependencies:
-    powerhooks "^0.20.0"
+    powerhooks "^0.20.7"
     tsafe "^0.10.0"
 
 ignore@^4.0.6:
@@ -1221,7 +1221,7 @@ please-upgrade-node@^3.2.0:
   dependencies:
     semver-compare "^1.0.0"
 
-powerhooks@^0.20.0:
+powerhooks@^0.20.7:
   version "0.20.7"
   resolved "https://registry.yarnpkg.com/powerhooks/-/powerhooks-0.20.7.tgz#02e8816f93f00f692fc7d23b11ef4ca43b6709d9"
   integrity sha512-m179An2lh90CNwvMMtGLHmmMrvG/c5kJVK1hNrCC0VjkrY6YAPDSazqKlLwZfb3nKhF+E88Uo20D4UhBgUFViQ==
