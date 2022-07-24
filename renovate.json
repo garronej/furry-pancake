@@ -13,11 +13,18 @@
     "packageRules": [
         {
             "packagePatterns": ["*"],
-            "excludePackagePatterns": ["powerhooks", "evt", "tsafe", "tss-react", "keycloakify"],
+            "excludePackagePatterns": [
+                "powerhooks",
+                "evt",
+                "tsafe",
+                "tss-react",
+                "keycloakify",
+                "cra-envs"
+            ],
             "enabled": false
         },
         {
-            "packagePatterns": ["powerhooks", "evt", "tsafe", "tss-react", "keycloakify"],
+            "packagePatterns": ["powerhooks", "evt", "tsafe", "tss-react", "keycloakify", "cra-envs"],
             "matchUpdateTypes": ["minor", "patch"],
             "automerge": true,
             "groupName": "garronej_modules_update"
