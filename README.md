@@ -24,7 +24,7 @@
   <a href="https://github.com/garronej/furry-pancake">Documentation</a>
 </p>
 
-# Install / Import
+# Install / Import!
 
 ```bash
 $ npm install --save furry-pancake
