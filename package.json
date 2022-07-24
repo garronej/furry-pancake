@@ -1,6 +1,6 @@
 {
     "name": "furry-pancake",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "description": "This is testing for renovate",
     "repository": {
         "type": "git",
@@ -46,8 +46,8 @@
         "powerhooks": "0.20.7",
         "tsafe": "0.10.0",
         "tss-react": "3.7.1",
-        "keycloakify": "5.7.2",
-        "cra-envs": "1.2.0"
+        "keycloakify": "5.7.3",
+        "cra-envs": "1.2.7"
     },
     "devDependencies": {
         "@types/node": "^16.4.9",
