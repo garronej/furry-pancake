@@ -13,11 +13,11 @@
     "packageRules": [
         {
             "packagePatterns": ["*"],
-            "excludePackagePatterns": ["powerhooks", "evt", "tsafe"],
+            "excludePackagePatterns": ["powerhooks", "evt", "tsafe", "tss-react"],
             "enabled": false
         },
         {
-            "packagePatterns": ["powerhooks", "evt", "tsafe"],
+            "packagePatterns": ["powerhooks", "evt", "tsafe", "tss-react"],
             "matchUpdateTypes": ["minor", "patch"],
             "automerge": true,
             "groupName": "garronej_modules_update"
