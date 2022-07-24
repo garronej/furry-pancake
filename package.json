@@ -1,6 +1,6 @@
 {
     "name": "furry-pancake",
-    "version": "0.0.7",
+    "version": "0.0.8",
     "description": "This is testing for renovate",
     "repository": {
         "type": "git",
@@ -42,13 +42,13 @@
     "keywords": [],
     "homepage": "https://github.com/garronej/furry-pancake",
     "dependencies": {
-        "evt": "2.2.1",
+        "evt": "2.2.2",
         "powerhooks": "0.20.7",
         "tsafe": "0.10.0",
         "tss-react": "3.7.1",
         "keycloakify": "5.7.3",
         "cra-envs": "1.2.7",
-        "run-exclusive": "2.2.14",
+        "run-exclusive": "2.2.15",
         "minimal-polyfills": "2.2.1"
     },
     "devDependencies": {
