@@ -21,7 +21,8 @@
                 "keycloakify",
                 "cra-envs",
                 "run-exclusive",
-                "minimal-polyfills"
+                "minimal-polyfills",
+                "onyxia-ui"
             ],
             "enabled": false
         },
@@ -34,10 +35,13 @@
                 "keycloakify",
                 "cra-envs",
                 "run-exclusive",
-                "minimal-polyfills"
+                "minimal-polyfills",
+                "onyxia-ui"
             ],
             "matchUpdateTypes": ["minor", "patch"],
             "automerge": true,
+            "automergeType": "pr",
+            "platformAutomerge": true,
             "groupName": "garronej_modules_update"
         }
     ]
