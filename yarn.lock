@@ -620,7 +620,7 @@ event-emitter@^0.3.5:
     d "1"
     es5-ext "~0.10.14"
 
-evt@2.2.2, evt@^2.2.1:
+evt@*, evt@2.2.2, evt@^2.2.1:
   version "2.2.2"
   resolved "https://registry.yarnpkg.com/evt/-/evt-2.2.2.tgz#36dbc7ada08ae4c73798b072470a681f3695ec50"
   integrity sha512-QBt/OEGIChEBHKaWJrQ2f7CtiWkeXbYOzeGEJbGq3ilnJI5AotgIc2jCsMqb2X6B0IqJdN6GD4ZFscfVUSh7ww==
@@ -1256,6 +1256,15 @@ queue-microtask@^1.2.2:
   resolved "https://registry.yarnpkg.com/queue-microtask/-/queue-microtask-1.2.3.tgz#4929228bbc724dfac43e0efb058caf7b6cfb6243"
   integrity sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==
 
+redux-clean-architecture@1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/redux-clean-architecture/-/redux-clean-architecture-1.2.0.tgz#997c0dbb370e1683546f3a4b0edc1d7554fe1782"
+  integrity sha512-xbUS0zzOfnOd60tcWtmyr7pubpF779hrwe2RXUQlad6eciWt86nQf7BSy06Uc8/5BX1FnJ4e1FumprIQjzj53A==
+  dependencies:
+    evt "*"
+    minimal-polyfills "^2.2.1"
+    tsafe "^0.9.0"
+
 regexpp@^3.1.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/regexpp/-/regexpp-3.2.0.tgz#0425a2768d8f23bad70ca4b90461fa2f1213e1b2"
@@ -1485,6 +1494,11 @@ tsafe@0.10.0, tsafe@^0.10.0:
   version "0.10.0"
   resolved "https://registry.yarnpkg.com/tsafe/-/tsafe-0.10.0.tgz#c4fba365a49467ea6167e8c9482ddb94ee51b795"
   integrity sha512-CFfa1uJKfU0DDRbuB8bf2mfXjkOqiTsrltexzMMLxq5gjd1LttFECNGsO8dYUALJDbShb6+f3CwAppW/wf9BrA==
+
+tsafe@^0.9.0:
+  version "0.9.1"
+  resolved "https://registry.yarnpkg.com/tsafe/-/tsafe-0.9.1.tgz#8d7f12e08638b1f5543b995cc35e6b8852dcf73f"
+  integrity sha512-zRnios5Z2dRGx1i1BnG4sDzjzwJHvZ5gcdoRgQMmik6lw50yuh4aWojVTtTGeqEN1YRK3SCyw+ju7wol0yEO7w==
 
 tslib@^1.8.1:
   version "1.14.1"
