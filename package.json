@@ -47,7 +47,8 @@
         "tsafe": "0.10.0",
         "tss-react": "3.7.1",
         "keycloakify": "5.7.3",
-        "cra-envs": "1.2.7"
+        "cra-envs": "1.2.7",
+        "run-exclusive": "2.2.7"
     },
     "devDependencies": {
         "@types/node": "^16.4.9",

@@ -19,12 +19,21 @@
                 "tsafe",
                 "tss-react",
                 "keycloakify",
-                "cra-envs"
+                "cra-envs",
+                "run-exclusive"
             ],
             "enabled": false
         },
         {
-            "packagePatterns": ["powerhooks", "evt", "tsafe", "tss-react", "keycloakify", "cra-envs"],
+            "packagePatterns": [
+                "powerhooks",
+                "evt",
+                "tsafe",
+                "tss-react",
+                "keycloakify",
+                "cra-envs",
+                "run-exclusive"
+            ],
             "matchUpdateTypes": ["minor", "patch"],
             "automerge": true,
             "groupName": "garronej_modules_update"
