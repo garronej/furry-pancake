@@ -13,35 +13,11 @@
     "packageRules": [
         {
             "packagePatterns": ["*"],
-            "excludePackagePatterns": [
-                "powerhooks",
-                "evt",
-                "tsafe",
-                "tss-react",
-                "keycloakify",
-                "cra-envs",
-                "run-exclusive",
-                "minimal-polyfills",
-                "onyxia-ui",
-                "sill-api",
-                "github-pages-plugin-for-type-route"
-            ],
+            "excludePackagePatterns": ["evt"],
             "enabled": false
         },
         {
-            "packagePatterns": [
-                "powerhooks",
-                "evt",
-                "tsafe",
-                "tss-react",
-                "keycloakify",
-                "cra-envs",
-                "run-exclusive",
-                "minimal-polyfills",
-                "onyxia-ui",
-                "sill-api",
-                "github-pages-plugin-for-type-route"
-            ],
+            "packagePatterns": ["evt"],
             "matchUpdateTypes": ["minor", "patch"],
             "automerge": true,
             "automergeType": "pr",

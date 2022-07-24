@@ -42,18 +42,7 @@
     "keywords": [],
     "homepage": "https://github.com/garronej/furry-pancake",
     "dependencies": {
-        "evt": "2.2.2",
-        "powerhooks": "0.20.7",
-        "tsafe": "0.10.0",
-        "tss-react": "3.7.1",
-        "keycloakify": "5.7.3",
-        "cra-envs": "1.2.7",
-        "run-exclusive": "2.2.15",
-        "minimal-polyfills": "2.2.1",
-        "onyxia-ui": "0.46.3",
-        "@emotion/react": "^11.9.3",
-        "sill-api": "0.21.1",
-        "github-pages-plugin-for-type-route": "0.0.9"
+        "evt": "2.2.0"
     },
     "devDependencies": {
         "@types/node": "^16.4.9",
