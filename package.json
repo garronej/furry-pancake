@@ -1,6 +1,6 @@
 {
     "name": "furry-pancake",
-    "version": "0.0.2",
+    "version": "0.0.3-beta.0",
     "description": "This is testing for renovate",
     "repository": {
         "type": "git",
@@ -43,7 +43,8 @@
     "homepage": "https://github.com/garronej/furry-pancake",
     "dependencies": {
         "evt": "2.2.1",
-        "powerhooks": "0.20.7"
+        "powerhooks": "0.20.7",
+        "tsafe": "0.9.0"
     },
     "devDependencies": {
         "@types/node": "^16.4.9",
