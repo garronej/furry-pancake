@@ -13,11 +13,18 @@
     "packageRules": [
         {
             "packagePatterns": ["*"],
-            "excludePackagePatterns": ["evt", "tsafe", "i18nifty", "redux-clean-architecture", "react"],
+            "excludePackagePatterns": [
+                "evt",
+                "tsafe",
+                "i18nifty",
+                "redux-clean-architecture",
+                "react",
+                "chai"
+            ],
             "enabled": false
         },
         {
-            "packagePatterns": ["evt", "tsafe", "i18nifty", "redux-clean-architecture", "react"],
+            "packagePatterns": ["evt", "tsafe", "i18nifty", "redux-clean-architecture", "react", "chai"],
             "matchUpdateTypes": ["minor", "patch"],
             "automerge": true,
             "automergeType": "pr",
