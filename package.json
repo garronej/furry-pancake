@@ -1,6 +1,6 @@
 {
     "name": "furry-pancake",
-    "version": "0.0.8",
+    "version": "0.0.9",
     "description": "This is testing for renovate",
     "repository": {
         "type": "git",
@@ -50,7 +50,7 @@
         "cra-envs": "1.2.7",
         "run-exclusive": "2.2.15",
         "minimal-polyfills": "2.2.1",
-        "onyxia-ui": "0.46.0",
+        "onyxia-ui": "0.46.3",
         "@emotion/react": "^11.9.3"
     },
     "devDependencies": {
