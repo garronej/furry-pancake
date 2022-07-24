@@ -2226,10 +2226,10 @@ signal-exit@^3.0.2, signal-exit@^3.0.3:
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.7.tgz#a9a1767f8af84155114eaabd73f99273c8f59ad9"
   integrity sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==
 
-sill-api@0.21.0:
-  version "0.21.0"
-  resolved "https://registry.yarnpkg.com/sill-api/-/sill-api-0.21.0.tgz#14a280ab9fba88a9599aec9043cb70aa1471688b"
-  integrity sha512-nnw/fCocJ73pdQZ1CD+6Fe9iE+8aYX4cd3UT7/0Bo32B4WYjqPp14yH2sBhRWpWiZJr2xKA4WF9Q9YOtwGkfuw==
+sill-api@0.21.1:
+  version "0.21.1"
+  resolved "https://registry.yarnpkg.com/sill-api/-/sill-api-0.21.1.tgz#7ae45fc86e187a77a25638e432bf40418f272eec"
+  integrity sha512-XPSZBGjifmIUeFEqk43PUPm5p9B0nFLim6yw9djWtJfIZ9BOJ35WBIQer1aaV6tEcGgc5K5bOwzaK0bC0yiHmQ==
   dependencies:
     "@trpc/server" "^9.24.0"
     compression "^1.7.4"
