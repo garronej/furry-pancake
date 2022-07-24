@@ -13,11 +13,11 @@
     "packageRules": [
         {
             "packagePatterns": ["*"],
-            "excludePackagePatterns": ["evt"],
+            "excludePackagePatterns": ["evt", "tsafe"],
             "enabled": false
         },
         {
-            "packagePatterns": ["evt"],
+            "packagePatterns": ["evt", "tsafe"],
             "matchUpdateTypes": ["minor", "patch"],
             "automerge": true,
             "automergeType": "pr",
