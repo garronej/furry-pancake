@@ -3,10 +3,6 @@ on:
   push:
     branches:
       - main
-      - renovate_main-garronej_modules_update
-  pull_request:
-    branches:
-      - main
 
 jobs:
 

@@ -45,7 +45,8 @@
         "evt": "2.2.1",
         "powerhooks": "0.20.7",
         "tsafe": "0.10.0",
-        "tss-react": "3.7.1"
+        "tss-react": "3.7.1",
+        "keycloakify": "5.7.2"
     },
     "devDependencies": {
         "@types/node": "^16.4.9",
