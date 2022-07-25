@@ -19,12 +19,21 @@
                 "i18nifty",
                 "redux-clean-architecture",
                 "react",
-                "chai"
+                "chai",
+                "react-dom"
             ],
             "enabled": false
         },
         {
-            "packagePatterns": ["evt", "tsafe", "i18nifty", "redux-clean-architecture", "react", "chai"],
+            "packagePatterns": [
+                "evt",
+                "tsafe",
+                "i18nifty",
+                "redux-clean-architecture",
+                "react",
+                "chai",
+                "react-dom"
+            ],
             "matchUpdateTypes": ["minor", "patch"],
             "automerge": true,
             "automergeType": "pr",
