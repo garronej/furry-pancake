@@ -281,16 +281,17 @@ callsites@^3.0.0:
   resolved "https://registry.yarnpkg.com/callsites/-/callsites-3.1.0.tgz#b3630abd8943432f54b3f0519238e33cd7df2f73"
   integrity sha512-P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==
 
-chai@4.3.0:
-  version "4.3.0"
-  resolved "https://registry.yarnpkg.com/chai/-/chai-4.3.0.tgz#5523a5faf7f819c8a92480d70a8cccbadacfc25f"
-  integrity sha512-/BFd2J30EcOwmdOgXvVsmM48l0Br0nmZPlO0uOW4XKh6kpsUumRXBgPV+IlaqFaqr9cYbeoZAM1Npx0i4A+aiA==
+chai@4.3.6:
+  version "4.3.6"
+  resolved "https://registry.yarnpkg.com/chai/-/chai-4.3.6.tgz#ffe4ba2d9fa9d6680cc0b370adae709ec9011e9c"
+  integrity sha512-bbcp3YfHCUzMOvKqsztczerVgBKSsEijCySNlHHbX3VG1nskvqjz5Rfso1gGwD6w6oOV3eI60pKuMOV5MV7p3Q==
   dependencies:
     assertion-error "^1.1.0"
     check-error "^1.0.2"
     deep-eql "^3.0.1"
     get-func-name "^2.0.0"
-    pathval "^1.1.0"
+    loupe "^2.3.1"
+    pathval "^1.1.1"
     type-detect "^4.0.5"
 
 chalk@^2.0.0:
@@ -649,7 +650,7 @@ event-emitter@^0.3.5:
     d "1"
     es5-ext "~0.10.14"
 
-evt@*, evt@2.2.2, evt@^2.2.1:
+evt@2.2.2, evt@^2.2.0, evt@^2.2.1:
   version "2.2.2"
   resolved "https://registry.yarnpkg.com/evt/-/evt-2.2.2.tgz#36dbc7ada08ae4c73798b072470a681f3695ec50"
   integrity sha512-QBt/OEGIChEBHKaWJrQ2f7CtiWkeXbYOzeGEJbGq3ilnJI5AotgIc2jCsMqb2X6B0IqJdN6GD4ZFscfVUSh7ww==
@@ -1064,6 +1065,13 @@ loose-envify@^1.1.0:
   dependencies:
     js-tokens "^3.0.0 || ^4.0.0"
 
+loupe@^2.3.1:
+  version "2.3.4"
+  resolved "https://registry.yarnpkg.com/loupe/-/loupe-2.3.4.tgz#7e0b9bffc76f148f9be769cb1321d3dcf3cb25f3"
+  integrity sha512-OvKfgCC2Ndby6aSTREl5aCCPTNIzlDfQZvZxNUrBrihDhL3xcrYegTblhmEiCrg2kKQz4XsFIaemE5BF4ybSaQ==
+  dependencies:
+    get-func-name "^2.0.0"
+
 lru-cache@^6.0.0:
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-6.0.0.tgz#6d6fe6570ebd96aaf90fcad1dafa3b2566db3a94"
@@ -1243,7 +1251,7 @@ path-type@^4.0.0:
   resolved "https://registry.yarnpkg.com/path-type/-/path-type-4.0.0.tgz#84ed01c0a7ba380afe09d90a8c180dcd9d03043b"
   integrity sha512-gDKb8aZMDeD/tZWs9P6+q0J9Mwkdl6xMV8TjnGP3qJVJ06bdMgkbBlLU8IdfOsIsFz2BW1rNVT3XuNEl8zPAvw==
 
-pathval@^1.1.0:
+pathval@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/pathval/-/pathval-1.1.1.tgz#8534e77a77ce7ac5a2512ea21e0fdb8fcf6c3d8d"
   integrity sha512-Dp6zGqpTdETdR63lehJYPeIOqpiNBNtc7BpWSLrOje7UaIsE5aY92r/AunQA7rsXvet3lrJ3JnZX29UPTKXyKQ==
@@ -1302,21 +1310,21 @@ queue-microtask@^1.2.2:
   resolved "https://registry.yarnpkg.com/queue-microtask/-/queue-microtask-1.2.3.tgz#4929228bbc724dfac43e0efb058caf7b6cfb6243"
   integrity sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==
 
-react@18.0.0:
-  version "18.0.0"
-  resolved "https://registry.yarnpkg.com/react/-/react-18.0.0.tgz#b468736d1f4a5891f38585ba8e8fb29f91c3cb96"
-  integrity sha512-x+VL6wbT4JRVPm7EGxXhZ8w8LTROaxPXOqhlGyVSrv0sB1jkyFGgXxJ8LVoPRLvPR6/CIZGFmfzqUa2NYeMr2A==
+react@18.2.0:
+  version "18.2.0"
+  resolved "https://registry.yarnpkg.com/react/-/react-18.2.0.tgz#555bd98592883255fa00de14f1151a917b5d77d5"
+  integrity sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==
   dependencies:
     loose-envify "^1.1.0"
 
-redux-clean-architecture@1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/redux-clean-architecture/-/redux-clean-architecture-1.2.0.tgz#997c0dbb370e1683546f3a4b0edc1d7554fe1782"
-  integrity sha512-xbUS0zzOfnOd60tcWtmyr7pubpF779hrwe2RXUQlad6eciWt86nQf7BSy06Uc8/5BX1FnJ4e1FumprIQjzj53A==
+redux-clean-architecture@1.2.3:
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/redux-clean-architecture/-/redux-clean-architecture-1.2.3.tgz#ce891e99b604fe4cc20014dd8e9811d34ca43c80"
+  integrity sha512-DCHqOOIzIytMUYAlxtRON6DSstKE3G6lXJwTgNXD+lBdW4kYZuSK7mZxM/w8AZNMVMCFK6MDuuGXU0C4LEMjkg==
   dependencies:
-    evt "*"
+    evt "^2.2.0"
     minimal-polyfills "^2.2.1"
-    tsafe "^0.9.0"
+    tsafe "^0.10.0"
 
 regexpp@^3.1.0:
   version "3.2.0"
@@ -1547,11 +1555,6 @@ tsafe@0.10.0, tsafe@^0.10.0:
   version "0.10.0"
   resolved "https://registry.yarnpkg.com/tsafe/-/tsafe-0.10.0.tgz#c4fba365a49467ea6167e8c9482ddb94ee51b795"
   integrity sha512-CFfa1uJKfU0DDRbuB8bf2mfXjkOqiTsrltexzMMLxq5gjd1LttFECNGsO8dYUALJDbShb6+f3CwAppW/wf9BrA==
-
-tsafe@^0.9.0:
-  version "0.9.1"
-  resolved "https://registry.yarnpkg.com/tsafe/-/tsafe-0.9.1.tgz#8d7f12e08638b1f5543b995cc35e6b8852dcf73f"
-  integrity sha512-zRnios5Z2dRGx1i1BnG4sDzjzwJHvZ5gcdoRgQMmik6lw50yuh4aWojVTtTGeqEN1YRK3SCyw+ju7wol0yEO7w==
 
 tslib@^1.8.1:
   version "1.14.1"
